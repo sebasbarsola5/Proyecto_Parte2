@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Sebastian Barsola</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/normalize.css">
 </head>
@@ -16,9 +19,8 @@
             <ul class="header-nav">
                 <li> <a href="index.html">Inicio</a> </li>
                 <li> <a href="pages/productos.html">Productos</a> </li>
-                <li> <a href="pages/crearcuenta.html">Crear Cuenta</a></li>
+                <li> <a href="pages/quienes_somos.html">Quienes Somos</a></li>
                 <li> <a href="pages/contactanos.html">Contactanos</a></li>
-                <li> <a href="pages/iniciarsesion.html">Iniciar Sesion</a></li>
             </ul>
         </nav>
     </header>
@@ -27,35 +29,70 @@
 
     <!-- MAIN empieza-->
     <main id="main__index">
-        <div class="contenedor__main">
-             <h1>SB.INDUMENTARIA </h1>
-        </div>
-        <div class="contenedor__info--main">
-            <img src="assets/local.jpg" alt="Imagen del Local" class="img-local">
-            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Molestias, inventore. Provident, ipsum earum fuga animi non velit repellat blanditiis
-                nam nostrum et accusantium dicta debitis at voluptatibus aperiam alias cum.</p>
+        <div class="contenedor__quienes-somos">
+            <div class="contenedor__main">
+                <h1>SyB INDUMENTARIA </h1>
+           </div>
+           <div class="contenedor__info--main">
+               <img src="assets/local.jpg" alt="Imagen del Local" class="img-local">
+               <div class="quienes__somos">
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Molestias, inventore. Provident, ipsum earum fuga animi non velit repellat blanditiis
+                    nam nostrum et accusantium dicta debitis at voluptatibus aperiam alias cum.</p>
+               </div>
+           </div>
         </div>
 
     <section class="section-main">
-            <div class="producto">
+            <div class="card__producto">
                     <div class="box-img">
-                          <img src="assets/conjuntos.png" alt="Conjunto">
-                          <h2>Conjuntos</h2>
+                          <a href="pages/productos.html">
+                            <img src="assets/conjuntos.png" alt="Conjunto">
+                            <h2>CONJUNTOS</h2>
+                          </a>
                     </div>
             </div>
-            <div class="producto">
+            <div class="card__producto">
                     <div class="box-img"> 
-                        <img src="assets/gorras.jpg" alt="Gorras">
-                        <h2>Gorras</h2>
+                        <a href="pages/productos.html">
+                            <img src="assets/gorras.jpg" alt="Gorras">
+                            <h2>GORRAS</h2>
+                        </a>
                     </div>
             </div>
-            <div class="producto">
+            <div class="card__producto">
                     <div class="box-img">
-                        <img src="assets/joggin.jpg" alt="Pantalones">
-                        <h2>Pantalones</h2>
-                    </div>
+                        <a href="pages/productos.html">
+                            <img src="assets/joggin.jpg" alt="Pantalones">
+                            <h2>JEANS & JOGGIN</h2>
+                        </a>
+                    </div> 
             </div>
+            <div class="card__producto">
+                <div class="box-img">
+                    <a href="pages/productos.html">
+                        <img src="assets/Buzos.jpg" alt="Buzos">
+                        <h2>BUZOS</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="card__producto">
+                <div class="box-img">
+                    <a href="pages/productos.html">
+                        <img src="assets/Remeras.jpeg" alt="Remeras">
+                        <h2>REMERAS</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="card__producto">
+                <div class="box-img">
+                    <a href="pages/productos.html">
+                        <img src="assets/Zapatillas.jpg" alt="Zapatillas">
+                        <h2>ZAPATILLAS</h2>
+                    </a>
+                </div>
+            </div>
+            
     </section>
     </main>
      <!--MAIN TERMINA -->

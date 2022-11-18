@@ -5,39 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Sebastian Barsola </title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/normalize.css">
 </head>
 <body>
-    <header>
-        <img src="../assets/descarga.png" alt="Logo" width="170" height="115">
+    <!--HEADER EMPIEZA-->
+    <header class="header">
+        <img src="../assets/logo.png" alt="Logo" class="logo__header">
         <nav>
-            <ul>
+            <ul class="header-nav">
                 <li> <a href="../index.html">Inicio</a> </li>
                 <li> <a href="productos.html">Productos</a> </li>
-                <li> <a href="crearcuenta.html">Crear Cuenta</a></li>
+                <li> <a href="quienes_somos.html">Quienes Somos</a></li>
                 <li> <a href="contactanos.html">Contactanos</a></li>
-                <li> <a href="iniciarsesion.html">Iniciar Sesion</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="productos">
-            <div class="productos__buzos">
-                <p>Buzos</p>
+        <section id="productos__cba wow animate__animated animate__backInLeft">
+            <div class="titulo__productos">
+                <h2>Todos los productos que tenemos para ofrecerte</h2>
             </div>
-            <div class="productos__camperas">
-                <p>Camperas</p>
-            </div>
-            <div>
-                <p>Remeras</p>
-            </div>
-            <div>
-                <p>Zapatillas</p>
-            </div>
-            <div>
-                Jeans
+            <div class="card__padre">
+                <div class="card__cba">
+                    <img src="../assets/remera1.jpeg" alt="Remera 1">            
+                    <p>Remera  </p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
+                </div>
+                <!--Card 2-->
+                <div class="card__cba">
+                    <img src="../assets/remera2.jpeg" alt="Remera 2">
+                    <p>Remera 2</p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
+                </div>
+                <!--Card 3-->
+                <div class="card__cba">
+                    <img src="../assets/remera3.jpeg" alt="Remera 3">
+                    <p>Remera 3</p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
+                </div>
+                <!--Card 4-->
+                <div class="card__cba">
+                    <img src="../assets/jeans1.jpeg" alt="Jeans 1">
+                    <p>Jean 1</p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
+                </div>
+                <!--Card 5-->
+                <div class="card__cba">
+                    <img src="../assets/jeans2.jpeg" alt="Jeans 2">
+                    <p>Jean 2</p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
+                </div>
+                <!--Card 6-->
+                <div class="card__cba">
+                    <img src="../assets/jeans3.jpeg" alt="Jeans 3">
+                    <p>Jean 3</p>
+                    <p>USD $30</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, qui.</p>
+        
+                    <button>Agregar al carrito</button>
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="conteiner__footer">
+            <p>Seguinos en nuestras redes sociales</p>
+            <ul class="ul__redes">
+                <a href="facebook.com"><li>Facebook</li></a>
+                <a href="instagram.com"><li>Instagram</li></a>
+                <a href="youtube.com"><li>Youtube</li></a>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
